@@ -1,7 +1,7 @@
 # Animate Helper
 
 [![npm version](https://badge.fury.io/js/animate-helper.svg)](https://badge.fury.io/js/animate-helper)
-[![DragsterJS gzip size](http://img.badgesize.io/https://raw.githubusercontent.com/fluidweb-co/animate-helper/master/dist/require-bundle.min.js?compression=gzip
+[![DragsterJS gzip size](http://img.badgesize.io/https://raw.githubusercontent.com/fluidweb-co/animate-helper/master/dist/animate-helper.min.js?compression=gzip
 )](https://raw.githubusercontent.com/fluidweb-co/animate-helper/master/dist/animate-helper.min.js)
 
 Provide functions to handle animations and transitions gracefully. Execute a function before or after playing a css animation on an element.
@@ -18,7 +18,7 @@ Setting up is pretty straight-forward. Just download the script from __dist__ fo
 
 ### NPM
 
-Require Bundle is also available on NPM:
+Animate Helper is also available on NPM:
 
 ```sh
 $ npm install animate-helper
