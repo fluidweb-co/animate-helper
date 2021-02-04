@@ -13,7 +13,7 @@ Provide functions to handle animations and transitions gracefully. Execute a fun
 Setting up is pretty straight-forward. Just download the script from __dist__ folder and include it in your HTML:
 
 ```html
-<script type="text/javascript" src="path/to/dist/animation-helper.min.js"></script>
+<script type="text/javascript" src="path/to/dist/animate-helper.min.js"></script>
 ```
 
 ### NPM
@@ -48,7 +48,7 @@ AnimateHelper.doThenAnimate( document.querySelector( '.flyout-menu' ), 'slide-up
 Call the function `AnimateHelper.animateThenDo( element, animationClass, callbackFn );` passing the parameters:
 - `element`: The element to which the animation class will be added and the animation played on
 - `animationClass`: The class name for the animation which should have the css property `animation:` set to a css keyframe animation definition.
-- `callbackFn`: The function to execute after the animation is played (`animationend` event), accepts the parameters `element` and `animationClass`.
+- `callbackFn`: The function to execute after the animation is played (`animationend` event), accepts the parameters `element` and `animationClass`.
 
 ```js
 // Play closing animation then set element hidden
